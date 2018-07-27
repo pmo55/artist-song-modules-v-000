@@ -10,9 +10,7 @@ include Memorable::InstanceMethods
 
   @@songs = []
 
-  def artist=(artist)
-    @artist = artist
-  end
+ 
 
  
   def self.all
