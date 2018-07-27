@@ -7,11 +7,7 @@ include Paramable::InstanceMethods
 include Memorable::InstanceMethods
   attr_accessor :name, :artist
   
-
   @@songs = []
-
- 
-
  
   def self.all
     @@songs
